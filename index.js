@@ -153,8 +153,12 @@ function parseCSVlog(syslogMessage, options) {
     let query = "INSERT INTO Fortigate_Log ("+SQLfields+") VALUES ("+SQLvalues+")"
     //console.log(query);
     try {
-        sql.query(query);
+        sql.query(query).catch(err => { 
+            console.log(err);
+            console.log(query);
+         });
     } catch(exceptionVar) {
+        console.log(exceptionVar);
         console.log(query);
     }
 
