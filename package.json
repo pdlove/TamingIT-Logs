@@ -1,0 +1,11 @@
+{
+  "name": "tamingit-logs",
+  "version": "0.0.1",
+  "description": "Log collector. Starting with Syslog and adding Windows Logs. Then adding a plugin-based parsing engine and correlation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
