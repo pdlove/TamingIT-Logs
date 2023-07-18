@@ -1,0 +1,10 @@
+{
+    "logFolder": "./logs/",
+    "hosts": {
+        "192.168.1.1": {
+            "format": "CEF",
+            "consolidation": "H",
+            "lastMessage": "2023-07-18T13:48:15.972Z"
+        }
+    }
+}
